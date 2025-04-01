@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona o Minecrafcie</title>
+    <style>
+        @font-face {
+            font-family: 'Minecraft';
+            src: url('https://fonts.cdnfonts.com/s/50875/MinecraftRegular-Bmg3.otf') format('opentype');
+        }
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: 'Minecraft', Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3em;
+            text-shadow: 3px 3px 5px black;
+        }
+        .info {
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .button {
+            font-size: 2em;
+            padding: 15px 30px;
+            background-color: #ffcc00;
+            color: black;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            animation: blink 1s infinite alternate;
+            display: inline-block;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            100% { opacity: 0.3; }
+        }
+    </style>
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+</head>
+<body>
+    <h1>Witaj na stronie o Minecrafcie!</h1>
+    <p class="info">To jest oficjalny kanał o grach Juliana! Znajdziesz tutaj świetne materiały o Minecrafcie i innych grach.</p>
+    <a href="https://www.youtube.com/@doge444-v5w" class="button" target="_blank">Zapraszam na mój kanał</a>
+</body>
+</html>
